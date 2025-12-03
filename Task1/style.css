@@ -1,0 +1,155 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVIGATION */
+.navbar {
+    background: #111;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+    background: white;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4a5cff;
+}
+
+.hero-title {
+    font-size: 32px;
+}
+
+.highlight {
+    color: #4a5cff;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    color: #555;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    background: #4a5cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #3b4be0;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* SKILLS */
+.skills-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    padding: 12px 22px;
+    background: #4a5cff;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    background: #3b4be0;
+    cursor: pointer;
+}
+
+.github {
+    background: #000;
+}
+
+/* EXPERIENCE */
+.exp-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+.contact-section a {
+    color: #4a5cff;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 40px;
+}
